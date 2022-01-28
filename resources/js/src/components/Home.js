@@ -5,8 +5,8 @@ import AppContainer from "./AppContainer";
 function Home() {
     return (
         <AppContainer title="Laravel ReactJS - CRUD">
-            <Link to="add" className="btn btn-success">
-                ADD
+            <Link to="add" className="btn btn-primary">
+                ADD POST
             </Link>
             <div className="table-responsive">
                 <table className="table table-striped mt-4">
@@ -24,9 +24,9 @@ function Home() {
                             <td>Sample Title</td>
                             <td>Sample Description</td>
                             <td>
-                                <a href="#" className="btn btn-warning">
+                                <Link to="/edit/1" className="btn btn-warning">
                                     EDIT
-                                </a>
+                                </Link>
                             </td>
                             <td>
                                 <a href="#" className="btn btn-danger">
