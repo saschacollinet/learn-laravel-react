@@ -5,7 +5,7 @@ import AppContainer from "./AppContainer";
 function Home() {
     return (
         <AppContainer title="Laravel ReactJS - CRUD">
-            <Link to="add" className="btn btn-primary">
+            <Link to="add" className="btn btn-success">
                 ADD
             </Link>
             <div className="table-responsive">
